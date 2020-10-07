@@ -230,11 +230,6 @@ void Time2LED(int Hour, int Minute){
         MITTERNACHT();
     }
     
-    else {
-       ES_IST();
-        setHourOnLED(Hour);
-        setMinuteOnLED(Minute);
-    }
     
 }
 
